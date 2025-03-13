@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 
     public Text scoreText;
     public Text highScoreText;
+    
 
     private int currentScore = 0;
     private int sessionHighScore;
@@ -23,7 +24,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        DontDestroyOnLoad(gameObject); // Keeps GameManager alive within the session
+        DontDestroyOnLoad(gameObject);
 
         LoadHighScore();
         UpdateUI();

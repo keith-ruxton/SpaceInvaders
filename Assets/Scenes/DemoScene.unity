@@ -1528,6 +1528,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 2604770886763869760, guid: 46f7c04cfd4b73e49a865596061b9ab8, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3609444698749228658, guid: 46f7c04cfd4b73e49a865596061b9ab8, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1613,9 +1617,33 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8017684208409169088, guid: 46f7c04cfd4b73e49a865596061b9ab8, type: 3}
+      propertyPath: Sdefault
+      value: 
+      objectReference: {fileID: -1033192868, guid: 48200b1655294814b83946da872b957d, type: 3}
+    - target: {fileID: 8017684208409169088, guid: 46f7c04cfd4b73e49a865596061b9ab8, type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 8300000, guid: c1d0e001184ea5d408b9b58ffd2376db, type: 3}
+    - target: {fileID: 8017684208409169088, guid: 46f7c04cfd4b73e49a865596061b9ab8, type: 3}
+      propertyPath: shootSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 6d5072db6789ff54ab8cc03668a6a47f, type: 3}
+    - target: {fileID: 8017684208409169088, guid: 46f7c04cfd4b73e49a865596061b9ab8, type: 3}
       propertyPath: laserPrefab
       value: 
       objectReference: {fileID: 6221553919012731298, guid: d4511b14daaa37c468a74ed386b2583f, type: 3}
+    - target: {fileID: 8017684208409169088, guid: 46f7c04cfd4b73e49a865596061b9ab8, type: 3}
+      propertyPath: shootFrame1
+      value: 
+      objectReference: {fileID: 655983242, guid: 48200b1655294814b83946da872b957d, type: 3}
+    - target: {fileID: 8017684208409169088, guid: 46f7c04cfd4b73e49a865596061b9ab8, type: 3}
+      propertyPath: shootFrame2
+      value: 
+      objectReference: {fileID: -1492162071, guid: 48200b1655294814b83946da872b957d, type: 3}
+    - target: {fileID: 8017684208409169088, guid: 46f7c04cfd4b73e49a865596061b9ab8, type: 3}
+      propertyPath: shootFrame3
+      value: 
+      objectReference: {fileID: 369523520, guid: 48200b1655294814b83946da872b957d, type: 3}
     - target: {fileID: 8017684208409169088, guid: 46f7c04cfd4b73e49a865596061b9ab8, type: 3}
       propertyPath: _laserActive
       value: 0
@@ -1624,6 +1652,18 @@ PrefabInstance:
       propertyPath: bulletPrefab
       value: 
       objectReference: {fileID: 2457785739244962049, guid: d4511b14daaa37c468a74ed386b2583f, type: 3}
+    - target: {fileID: 8017684208409169088, guid: 46f7c04cfd4b73e49a865596061b9ab8, type: 3}
+      propertyPath: destructionFrame1
+      value: 
+      objectReference: {fileID: 369523520, guid: 48200b1655294814b83946da872b957d, type: 3}
+    - target: {fileID: 8017684208409169088, guid: 46f7c04cfd4b73e49a865596061b9ab8, type: 3}
+      propertyPath: destructionFrame2
+      value: 
+      objectReference: {fileID: 1393072858, guid: 48200b1655294814b83946da872b957d, type: 3}
+    - target: {fileID: 8017684208409169088, guid: 46f7c04cfd4b73e49a865596061b9ab8, type: 3}
+      propertyPath: destructionFrame3
+      value: 
+      objectReference: {fileID: 655983242, guid: 48200b1655294814b83946da872b957d, type: 3}
     m_RemovedComponents:
     - {fileID: 3609444698749228658, guid: 46f7c04cfd4b73e49a865596061b9ab8, type: 3}
     - {fileID: 5268236053126314394, guid: 46f7c04cfd4b73e49a865596061b9ab8, type: 3}

@@ -6,13 +6,11 @@ using System.Collections;
 public class DemoButton : MonoBehaviour
 {
     public GameObject Player;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -24,7 +22,7 @@ public class DemoButton : MonoBehaviour
 
         IEnumerator _LoadGameScene()
         {
-            AsyncOperation loadOp = SceneManager.LoadSceneAsync("Game");
+            AsyncOperation loadOp = SceneManager.LoadSceneAsync("DemoScene");
             while (!loadOp!.isDone) yield return null;
             GameObject Player = GameObject.Find("Player");
             Debug.Log(Player.name + "yay");
